@@ -1,7 +1,7 @@
 import React from "react";
 const SportTabs = ({ tabs }) => {
   return (
-    <div className="Sport-tabs__box-shadow flex h-12 bg-white overflow-hidden  ">
+    <div className="Sport-tabs__box-shadow flex h-12 bg-white overflow-hidden cursor-pointer ">
       {tabs.map((item, index) => (
         <div
           key={index}
